@@ -69,19 +69,49 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://easeflow.io",
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Discord",
+          "href": "https://discord.com/invite/JDkD4EaqcZ",
+          "icon": "discord"
+        },
+        {
+          "anchor": "X (Twitter)",
+          "href": "https://x.com/easeflowHQ",
+          "icon": "x-twitter"
+        },
+        {
+          "anchor": "YouTube",
+          "href": "https://www.youtube.com/playlist?list=PLvfqS8pz1G9mG_TTviSl5suVpvSZjiIHb",
+          "icon": "youtube"
+        },
+        {
+          "anchor": "Telegram",
+          "href": "https://t.me/easeflow",
+          "icon": "telegram"
+        },
+        {
+          "anchor": "Support",
+          "href": "https://discord.com/channels/1217243890352914552/1220638161407836241",
+          "icon": "headset"
+        },
+        {
+          "anchor": "Partnerships",
+          "href": "https://discord.com/channels/1217243890352914552/1220638161407836241",
+          "icon": "handshake"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://easeflow.io/blog",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Brand Assets",
+          "href": "https://www.figma.com/design/CoOnmTfPPo5aFyUjEGzCiv/00-%E2%80%94-floKit-%E2%80%94-%5BFor-Partners%5D?m=auto&t=a0scg5ad9UvLevR7-1",
+          "icon": "palette"
         }
       ]
     }
