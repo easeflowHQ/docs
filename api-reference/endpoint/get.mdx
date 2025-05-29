@@ -2,3 +2,56 @@
 title: 'Get Plants'
 openapi: 'GET /plants'
 ---
+
+## Overview
+
+This endpoint retrieves a list of all plants in your garden.
+
+## Request
+
+```http
+GET /api/plants
+```
+
+### Query Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `limit` | integer | Maximum number of plants to return (default: 50) |
+| `offset` | integer | Number of plants to skip (default: 0) |
+| `type` | string | Filter by plant type (flower, tree, herb) |
+
+## Response
+
+```json
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "type": "flower",
+      "color": "red",
+      "planted_date": "2023-03-15",
+      "status": "healthy"
+    },
+    {
+      "id": 2,
+      "name": "Oak Tree",
+      "type": "tree",
+      "height": "15ft",
+      "planted_date": "2020-04-22",
+      "status": "healthy"
+    }
+  ],
+  "total": 2,
+  "limit": 50,
+  "offset": 0
+}
+```
+
+## Example Request
+
+```bash
+curl -X GET "https://api.example.com/plants?limit=10&type=flower" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+``` 

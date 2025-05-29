@@ -2,3 +2,65 @@
 title: 'Create Plant'
 openapi: 'POST /plants'
 ---
+
+## Overview
+
+This endpoint allows you to add a new plant to your garden.
+
+## Request
+
+```http
+POST /api/plants
+```
+
+### Request Body
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `name` | string | Yes | Name of the plant |
+| `type` | string | Yes | Type of plant (flower, tree, herb) |
+| `color` | string | No | Color of the plant |
+| `location` | string | No | Location in the garden |
+
+## Example Request
+
+```bash
+curl -X POST "https://api.example.com/plants" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Sunflower",
+    "type": "flower",
+    "color": "yellow",
+    "location": "front yard"
+  }'
+```
+
+## Response
+
+### Success Response (201 Created)
+
+```json
+{
+  "id": 3,
+  "name": "Sunflower",
+  "type": "flower",
+  "color": "yellow",
+  "location": "front yard",
+  "planted_date": "2024-01-15",
+  "status": "newly_planted"
+}
+```
+
+### Error Response (400 Bad Request)
+
+```json
+{
+  "error": "validation_failed",
+  "message": "Name and type are required fields",
+  "details": {
+    "name": "This field is required",
+    "type": "This field is required"
+  }
+}
+``` 

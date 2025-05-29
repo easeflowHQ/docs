@@ -1,87 +1,39 @@
 ---
-title: 'Navigation'
-description: 'The navigation field in docs.json defines the pages that go in the navigation menu'
-icon: 'map'
+title: "Navigation"
+description: "Learn how to configure the navigation for your documentation"
 ---
 
-The navigation menu is the list of links on every website.
+<Info>
+This feature is particularly useful to edit the order and groups of pages in your navigation.
+</Info>
 
-You will likely update `docs.json` every time you add a new page. Pages do not show up automatically.
+## Sidebar
+To edit your sidebar, make changes to the `navigation` array in your `docs.json` file. For example:
 
-## Navigation syntax
+```json Navigation
+"navigation": [
+  {
+    "group": "Getting Started",
+    "pages": ["quickstart", "development"]
+  },
+  {
+    "group": "Essentials",
+    "pages": ["markdown", "code", "images"]
+  }
+]
+```
 
-Our navigation syntax is recursive which means you can make nested navigation groups. You don't need to include `.mdx` in page names.
+## Navbar
 
-<CodeGroup>
+For navbar in your documentation, you can add navbar items by editing the `navbar` field in your `docs.json`.
 
-```json Regular Navigation
-"navigation": {
-  "tabs": [
+```json navbar
+"navbar": {
+  "links": [
     {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": ["quickstart"]
-        }
-      ]
+      "label": "Changelog",
+      "href": "/changelog"
     }
   ]
 }
-```
-
-```json Nested Navigation
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": [
-            "quickstart",
-            {
-              "group": "Nested Reference Pages",
-              "pages": ["nested-reference-page"]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-```
-
-</CodeGroup>
-
-## Folders
-
-Simply put your MDX files in folders and update the paths in `docs.json`.
-
-For example, to have a page at `https://yoursite.com/your-folder/your-page` you would make a folder called `your-folder` containing an MDX file called `your-page.mdx`.
-
-<Warning>
-
-You cannot use `api` for the name of a folder unless you nest it inside another folder. Mintlify uses Next.js which reserves the top-level `api` folder for internal server calls. A folder name such as `api-reference` would be accepted.
-
-</Warning>
-
-```json Navigation With Folder
-"navigation": {
-  "tabs": [
-    {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Group Name",
-          "pages": ["your-folder/your-page"]
-        }
-      ]
-    }
-  ]
-}
-```
-
-## Hidden Pages
-
-MDX files not included in `docs.json` will not show up in the sidebar but are accessible through the search bar and by linking directly to them.
+``` 
