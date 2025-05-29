@@ -1,0 +1,33 @@
+/* Node Guides specific styling */
+
+/* Aethir icon styling - remove background and make bigger */
+img[src*="aethir.png"],
+[src*="aethir.png"] {
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  width: 24px !important;
+  height: 24px !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Target navigation sidebar icons specifically */
+nav img[src*="aethir.png"],
+.sidebar img[src*="aethir.png"],
+[data-testid="sidebar"] img[src*="aethir.png"],
+.navigation img[src*="aethir.png"] {
+  background: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  width: 20px !important;
+  height: 20px !important;
+  object-fit: contain !important;
+  padding: 0 !important;
+  margin-right: 8px !important;
+  box-shadow: none !important;
+  border: none !important;
+} 

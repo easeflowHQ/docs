@@ -27,18 +27,16 @@
         "tab": "Node Deployment",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Get Started",
             "pages": [
-              "node-deployment/introduction"
+              "node-deployment/introduction",
+              "node-deployment/faq"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Node Setup Guides",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "node-guides/aethir"
             ]
           }
         ]
@@ -128,12 +126,10 @@
       "href": "https://app.easeflow.io"
     }
   },
-  "footer": {
-  },
   "customization": {
     "css": [
       "footer/footer-layout.css",
-      "footer/pagination.css"
+      "node-guides/node-guides.css"
     ]
   }
 }

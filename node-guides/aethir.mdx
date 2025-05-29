@@ -1,0 +1,88 @@
+---
+title: 'Aethir'
+icon: '/node-guides/aethir.png'
+---
+
+## Overview
+
+Aethir is an enterprise-grade AI-focused GPU as a-service provider in the market. It's a decentralized cloud computing infrastructure that allows GPU providers to meet enterprise clients who need powerful H100 chips for professional AI/ML tasks.
+
+
+<Frame caption="">
+  <iframe 
+    width="100%" 
+    height="400" 
+    src="https://www.youtube.com/embed/LVZTs-sc-yM" 
+    title="Aethir Checker Node" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen>
+  </iframe>
+</Frame>
+
+## Requirements
+
+- **Hardware**: NVIDIA GPU with at least 8GB VRAM
+- **Operating System**: Linux (Ubuntu 20.04+ recommended)
+- **Network**: Stable internet connection with good upload speeds
+- **Storage**: At least 100GB available disk space
+
+
+## FAQ
+
+<Accordion title="What is Aethir?">
+  Aethir is best described as distributed cloud compute infrastructure. It aggregates enterprise-grade GPU chips into a single global network to increase the supply of on-demand cloud compute resources for the AI, gaming, and virtualized compute sectors.
+</Accordion>
+
+<Accordion title="How much can I earn by running an Aethir node?">
+  Earnings from an Aethir node depend on several factors:
+  - **GPU Performance**: Higher-end GPUs (H100, A100, RTX 4090) earn more
+  - **Uptime**: Consistent 24/7 operation maximizes earnings
+  - **Network Demand**: Higher demand for GPU compute increases rewards
+  - **Location**: Geographic location affects latency and task allocation
+  
+  Typical earnings range from $5-50+ per day depending on your setup and market conditions.
+</Accordion>
+
+<Accordion title="What happens if my node goes offline?">
+  If your Aethir node goes offline:
+  - **Temporary outages**: Short disconnections (few minutes) usually don't affect earnings significantly
+  - **Extended downtime**: Longer outages may impact your node's reputation score
+  - **Automatic restart**: The node software typically auto-restarts after system reboots
+  - **No penalties**: There are no direct financial penalties for downtime
+  
+  ```bash
+  # Check node status
+  ./aethir-node status
+  
+  # Restart the node service
+  ./aethir-node restart
+  ```
+</Accordion>
+
+<Accordion title="How do I monitor my node's performance and earnings?">
+  You can monitor your Aethir node through:
+  - **Aethir Dashboard**: Web-based interface showing real-time stats
+  - **Local Logs**: Check node logs for detailed information
+  - **CLI Commands**: Use command-line tools for quick status checks
+  - **Mobile App**: Aethir mobile app for on-the-go monitoring
+  
+  Key metrics to watch:
+  - GPU utilization percentage
+  - Tasks completed per hour
+  - Network latency
+  - Daily/weekly earnings
+</Accordion>
+
+<Accordion title="Can I run multiple Aethir nodes on the same machine?">
+  Yes, you can run multiple Aethir nodes if you have:
+  - **Multiple GPUs**: Each node typically requires its own GPU
+  - **Sufficient Resources**: Adequate RAM, CPU, and bandwidth
+  - **Proper Configuration**: Different ports and directories for each node
+  
+  ```bash
+  # Example for running multiple nodes
+  ./aethir-node --gpu=0 --port=8080 --data-dir=./node1
+  ./aethir-node --gpu=1 --port=8081 --data-dir=./node2
+  ```
+</Accordion> 
