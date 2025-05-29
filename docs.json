@@ -29,7 +29,7 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "node-deployment/introduction"
             ]
           },
           {
@@ -134,8 +134,5 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  },
-  "customization": {
-    "css": ["/pagination.css"]
   }
 }
