@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Welcome",
         "groups": [
           {
             "group": "Get Started",
@@ -20,22 +20,11 @@
               "quickstart",
               "development"
             ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Node Deployment",
         "groups": [
           {
             "group": "API Documentation",
@@ -50,6 +39,28 @@
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Staking & Delegation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "staking/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "floAgent",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "floagent/introduction"
             ]
           }
         ]
