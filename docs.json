@@ -17,8 +17,8 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "about-easeflow",
-              "why-easeflow"
+              "introduction/about-easeflow",
+              "introduction/why-easeflow"
             ]
           }
         ]
