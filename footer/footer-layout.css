@@ -1,0 +1,67 @@
+/* Footer layout styling with single text injection */
+footer,
+.mintlify-footer,
+[data-testid="footer"] {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 1rem !important;
+  padding: 1rem !important;
+  position: relative !important;
+}
+
+/* Inject copyright text on the left - single approach only */
+footer::before,
+.mintlify-footer::before,
+[data-testid="footer"]::before {
+  content: "© 2025 easeflow." !important;
+  display: block !important;
+  color: #6b7280 !important;
+  font-size: 0.875rem !important;
+  order: 1 !important;
+  margin-right: auto !important;
+}
+
+/* Dark mode for copyright text */
+.dark footer::before,
+.dark .mintlify-footer::before,
+.dark [data-testid="footer"]::before,
+[data-theme="dark"] footer::before,
+[data-theme="dark"] .mintlify-footer::before,
+[data-theme="dark"] [data-testid="footer"]::before {
+  color: #9ca3af !important;
+}
+
+/* Powered by Mintlify on the right */
+footer > *,
+.mintlify-footer > *,
+[data-testid="footer"] > * {
+  order: 2 !important;
+  margin-left: auto !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  footer,
+  .mintlify-footer,
+  [data-testid="footer"] {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+  }
+  
+  footer::before,
+  .mintlify-footer::before,
+  [data-testid="footer"]::before {
+    order: 1 !important;
+    margin: 0 !important;
+  }
+  
+  footer > *,
+  .mintlify-footer > *,
+  [data-testid="footer"] > * {
+    order: 2 !important;
+    margin: 0 !important;
+  }
+} 
