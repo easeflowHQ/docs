@@ -11,14 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Welcome",
+        "tab": "Introduction",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "about-easeflow",
+              "why-easeflow"
             ]
           }
         ]
