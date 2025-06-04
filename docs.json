@@ -58,9 +58,9 @@
             ]
           },
           {
-            "group": "Node Setup Guides",
+            "group": "Staking Guides",
             "pages": [
-              "staking/node-guides/aethir"
+              "staking/staking-guides/aethir"
             ]
           }
         ]
