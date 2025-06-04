@@ -53,7 +53,14 @@
           {
             "group": "Getting Started",
             "pages": [
-              "staking/introduction"
+              "staking/introduction",
+              "staking/faq"
+            ]
+          },
+          {
+            "group": "Node Setup Guides",
+            "pages": [
+              "staking/node-guides/aethir"
             ]
           }
         ]
