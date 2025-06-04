@@ -58,7 +58,8 @@
           {
             "group": "Getting Started",
             "pages": [
-              "floagent/introduction"
+              "floagent/introduction",
+              "floagent/activate-now"
             ]
           }
         ]
