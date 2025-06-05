@@ -1,8 +1,8 @@
 /* Node Guides specific styling */
 
-/* Aethir icon styling - remove background and make bigger */
-img[src*="aethir.png"],
-[src*="aethir.png"] {
+/* Project icon styling - remove background and make bigger */
+img[src*="/images/projects/"],
+[src*="/images/projects/"] {
   background: none !important;
   background-color: transparent !important;
   border-radius: 0 !important;
@@ -16,10 +16,10 @@ img[src*="aethir.png"],
 }
 
 /* Target navigation sidebar icons specifically */
-nav img[src*="aethir.png"],
-.sidebar img[src*="aethir.png"],
-[data-testid="sidebar"] img[src*="aethir.png"],
-.navigation img[src*="aethir.png"] {
+nav img[src*="/images/projects/"],
+.sidebar img[src*="/images/projects/"],
+[data-testid="sidebar"] img[src*="/images/projects/"],
+.navigation img[src*="/images/projects/"] {
   background: none !important;
   background-color: transparent !important;
   border-radius: 0 !important;

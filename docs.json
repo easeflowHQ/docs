@@ -41,7 +41,24 @@
           {
             "group": "Node Setup Guides",
             "pages": [
-              "node-guides/aethir"
+              "node-guides/aethir",
+              "node-guides/beam",
+              "node-guides/carv",
+              "node-guides/din",
+              "node-guides/edu",
+              "node-guides/gpu",
+              "node-guides/gr1d",
+              "node-guides/huddle01",
+              "node-guides/hychain",
+              "node-guides/iagent",
+              "node-guides/kip",
+              "node-guides/lumoz",
+              "node-guides/privasea",
+              "node-guides/rivalz",
+              "node-guides/sophon",
+              "node-guides/story",
+              "node-guides/xai",
+              "node-guides/xprotocol"
             ]
           }
         ]
@@ -59,7 +76,11 @@
           {
             "group": "Staking Guides",
             "pages": [
-              "staking/staking-guides/aethir"
+              "staking/staking-guides/beam",
+              "staking/staking-guides/carv",
+              "staking/staking-guides/icn",
+              "staking/staking-guides/sophon",
+              "staking/staking-guides/story"
             ]
           }
         ]
