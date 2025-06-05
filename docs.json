@@ -41,24 +41,24 @@
           {
             "group": "Node Setup Guides",
             "pages": [
-              "node-guides/aethir",
-              "node-guides/beam",
-              "node-guides/carv",
-              "node-guides/din",
-              "node-guides/edu",
-              "node-guides/gpu",
-              "node-guides/gr1d",
-              "node-guides/huddle01",
-              "node-guides/hychain",
-              "node-guides/iagent",
-              "node-guides/kip",
-              "node-guides/lumoz",
-              "node-guides/privasea",
-              "node-guides/rivalz",
-              "node-guides/sophon",
-              "node-guides/story",
-              "node-guides/xai",
-              "node-guides/xprotocol"
+              "node-deployment/node-guides/aethir",
+              "node-deployment/node-guides/beam",
+              "node-deployment/node-guides/carv",
+              "node-deployment/node-guides/din",
+              "node-deployment/node-guides/edu",
+              "node-deployment/node-guides/gpu",
+              "node-deployment/node-guides/gr1d",
+              "node-deployment/node-guides/huddle01",
+              "node-deployment/node-guides/hychain",
+              "node-deployment/node-guides/iagent",
+              "node-deployment/node-guides/kip",
+              "node-deployment/node-guides/lumoz",
+              "node-deployment/node-guides/privasea",
+              "node-deployment/node-guides/rivalz",
+              "node-deployment/node-guides/sophon",
+              "node-deployment/node-guides/story",
+              "node-deployment/node-guides/xai",
+              "node-deployment/node-guides/xprotocol"
             ]
           }
         ]
@@ -163,7 +163,7 @@
   "customization": {
     "css": [
       "footer/footer-layout.css",
-      "node-guides/node-guides.css"
+      "node-deployment/node-guides/node-guides.css"
     ]
   }
 }
