@@ -170,5 +170,40 @@
     "ga4": {
       "measurementId": "G-GYEVNWMPFT"
     }
+  },
+  "seo": {
+    "metatags": {
+      "description": "Comprehensive documentation for easeflow - Deploy nodes, stake tokens, and manage blockchain infrastructure with step-by-step guides and tutorials.",
+      "keywords": "blockchain, node deployment, staking, Web3, cryptocurrency, DeFi, infrastructure, easeflow, blockchain guides",
+      "author": "easeflow",
+      "robots": "index, follow",
+      "googlebot": "index, follow",
+      "language": "en",
+      "og:title": "easeflow Documentation - Blockchain Infrastructure Made Easy",
+      "og:type": "website",
+      "og:url": "https://docs.easeflow.io",
+      "og:image": "https://docs.easeflow.io/images/easeflow-og-image.png",
+      "og:description": "Comprehensive documentation for easeflow - Deploy nodes, stake tokens, and manage blockchain infrastructure with step-by-step guides and tutorials.",
+      "og:site_name": "easeflow Documentation",
+      "og:locale": "en_US",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@easeflowHQ",
+      "twitter:creator": "@easeflowHQ",
+      "twitter:title": "easeflow Documentation - Blockchain Infrastructure Made Easy",
+      "twitter:description": "Comprehensive documentation for easeflow - Deploy nodes, stake tokens, and manage blockchain infrastructure with step-by-step guides and tutorials.",
+      "twitter:image": "https://docs.easeflow.io/images/easeflow-og-image.png",
+      "twitter:image:alt": "easeflow Documentation Homepage",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black",
+      "apple-mobile-web-app-title": "easeflow Docs",
+      "theme-color": "#16A34A",
+      "msapplication-TileColor": "#16A34A",
+      "copyright": "Copyright 2024 easeflow",
+      "category": "Technology",
+      "coverage": "Worldwide",
+      "distribution": "global",
+      "rating": "general"
+    },
+    "indexing": "all"
   }
 }
