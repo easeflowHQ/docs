@@ -12,15 +12,43 @@ Moonveil.gg is a rising zk-L2 & AI powered gaming ecosystem, built by a team of 
 ---
 ## How to Deploy a Node
 <Frame caption="">
-  <iframe 
-    width="100%" 
-    height="400" 
-    src="https://www.youtube.com/embed/KIBjtnt_FcY?modestbranding=1&rel=0&showinfo=0&controls=1&iv_load_policy=3" 
-    title="Moonveil Muse Node" 
-    frameBorder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowFullScreen>
-  </iframe>
+  <div id="moonveil-video-container" style={{position: 'relative', width: '100%', height: '400px'}}>
+    <div 
+      onClick={() => {
+        document.getElementById('moonveil-video-container').innerHTML = `
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/KIBjtnt_FcY?autoplay=1&mute=1&rel=0" 
+                  frameBorder="0" allowFullScreen allow="autoplay; encrypted-media" style="border-radius: 8px;"></iframe>
+        `;
+      }}
+      onMouseEnter={() => {
+        const btn = document.getElementById('moonveil-btn');
+        const icon = document.getElementById('moonveil-icon');
+        btn.style.backgroundColor = 'rgba(255,255,255,0.9)';
+        icon.style.fill = '#ff0000';
+      }}
+      onMouseLeave={() => {
+        const btn = document.getElementById('moonveil-btn');
+        const icon = document.getElementById('moonveil-icon');
+        btn.style.backgroundColor = 'rgba(255,0,0,0.9)';
+        icon.style.fill = 'white';
+      }}
+      style={{
+        position: 'relative', width: '100%', height: '400px', cursor: 'pointer',
+        backgroundImage: 'url(https://img.youtube.com/vi/KIBjtnt_FcY/maxresdefault.jpg)',
+        backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '8px'
+      }}
+    >
+      <div id="moonveil-btn" style={{
+        position: 'absolute', bottom: '16px', right: '16px', width: '50px', height: '50px',
+        backgroundColor: 'rgba(255,0,0,0.9)', borderRadius: '50%', display: 'flex',
+        alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s ease', pointerEvents: 'none'
+      }}>
+        <svg id="moonveil-icon" width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
 </Frame>
 
 
