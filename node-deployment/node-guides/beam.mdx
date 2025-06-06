@@ -12,15 +12,43 @@ Beam Network is an open-source sovereign blockchain network focused on gaming th
 ---
 ## How to Deploy a Node
 <Frame caption="">
-  <iframe 
-    width="100%" 
-    height="400" 
-    src="https://www.youtube.com/embed/tysFqiWUMsE" 
-    title="Beam Validator Node" 
-    frameBorder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowFullScreen>
-  </iframe>
+  <div id="beam-node-video-container" style={{position: 'relative', width: '100%', height: '400px'}}>
+    <div 
+      onClick={() => {
+        document.getElementById('beam-node-video-container').innerHTML = `
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/tysFqiWUMsE?autoplay=1" 
+                  frameBorder="0" allowFullScreen style="border-radius: 8px;"></iframe>
+        `;
+      }}
+      onMouseEnter={() => {
+        const btn = document.getElementById('beam-node-btn');
+        const icon = document.getElementById('beam-node-icon');
+        btn.style.backgroundColor = 'rgba(255,255,255,0.9)';
+        icon.style.fill = '#ff0000';
+      }}
+      onMouseLeave={() => {
+        const btn = document.getElementById('beam-node-btn');
+        const icon = document.getElementById('beam-node-icon');
+        btn.style.backgroundColor = 'rgba(255,0,0,0.9)';
+        icon.style.fill = 'white';
+      }}
+      style={{
+        position: 'relative', width: '100%', height: '400px', cursor: 'pointer',
+        backgroundImage: 'url(https://img.youtube.com/vi/tysFqiWUMsE/maxresdefault.jpg)',
+        backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '8px'
+      }}
+    >
+      <div id="beam-node-btn" style={{
+        position: 'absolute', bottom: '16px', right: '16px', width: '50px', height: '50px',
+        backgroundColor: 'rgba(255,0,0,0.9)', borderRadius: '50%', display: 'flex',
+        alignItems: 'center', justifyContent: 'center', transition: 'all 0.2s ease', pointerEvents: 'none'
+      }}>
+        <svg id="beam-node-icon" width="20" height="20" viewBox="0 0 24 24" fill="white">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      </div>
+    </div>
+  </div>
 </Frame>
 
 
