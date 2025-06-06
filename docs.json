@@ -165,5 +165,10 @@
       "footer/footer-layout.css",
       "node-deployment/node-guides/node-guides.css"
     ]
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-GYEVNWMPFT"
+    }
   }
 }
