@@ -69,7 +69,7 @@
         "tab": "Staking & Delegation",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Get Started",
             "pages": [
               "staking/introduction",
               "staking/faq"
@@ -91,7 +91,7 @@
         "tab": "floAgent",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Get Started",
             "pages": [
               "floagent/introduction",
               "floagent/activate-now"
