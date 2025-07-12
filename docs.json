@@ -103,48 +103,69 @@
     "global": {
       "anchors": [
         {
+          "anchor": "Launch Node App",
+          "href": "https://app.easeflow.io",
+          "icon": "/images/easeflow-icon.svg",
+          "target": "_blank"
+        },
+        {
+          "anchor": "Launch NodeStore",
+          "href": "https://nodestore.com",
+          "icon": "/images/NodeStore-icon.svg",
+          "target": "_blank"
+        },
+        {
           "anchor": "Website",
           "href": "https://easeflow.io",
+          "target": "_blank",
           "icon": "globe"
         },
         {
           "anchor": "Discord",
           "href": "https://discord.com/invite/JDkD4EaqcZ",
+          "target": "_blank",
           "icon": "discord"
         },
         {
           "anchor": "X (Twitter)",
           "href": "https://x.com/easeflowHQ",
+          "target": "_blank",
           "icon": "x-twitter"
         },
         {
           "anchor": "YouTube",
           "href": "https://www.youtube.com/playlist?list=PLvfqS8pz1G9mG_TTviSl5suVpvSZjiIHb",
+          "target": "_blank",
           "icon": "youtube"
         },
         {
           "anchor": "Telegram",
           "href": "https://t.me/easeflow",
+          "target": "_blank",
           "icon": "telegram"
         },
         {
           "anchor": "Support",
           "href": "https://discord.com/channels/1217243890352914552/1220638161407836241",
+          "target": "_blank",
           "icon": "headset"
         },
         {
           "anchor": "Partnerships",
           "href": "https://discord.com/channels/1217243890352914552/1220638161407836241",
+          "target": "_blank",
           "icon": "handshake"
         },
         {
           "anchor": "Blog",
-          "href": "https://easeflow.io/blog",
+          "href": "https://easeflow.substack.com",
+          "target": "_blank",
           "icon": "newspaper"
         },
         {
           "anchor": "Brand Assets",
           "href": "https://www.figma.com/design/CoOnmTfPPo5aFyUjEGzCiv/00-%E2%80%94-floKit-%E2%80%94-%5BFor-Partners%5D?m=auto&t=a0scg5ad9UvLevR7-1",
+          "target": "_blank",
           "icon": "palette"
         }
       ]
@@ -158,8 +179,8 @@
     "links": [],
     "primary": {
       "type": "button",
-      "label": "Launch app",
-      "href": "https://app.easeflow.io"
+      "label": "Go to Website",
+      "href": "https://easeflow.io"
     }
   },
   "customization": {

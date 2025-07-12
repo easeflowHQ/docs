@@ -31,3 +31,20 @@ nav img[src*="/images/projects/"],
   box-shadow: none !important;
   border: none !important;
 }
+
+/* Force transparent background for all sidebar/global menu icons */
+.sidebar img, .sidebar svg,
+[data-testid="sidebar"] img, [data-testid="sidebar"] svg {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Remove background-color for easeflow-icon and nodestore-icon in sidebar/global menu */
+img[src$="easeflow-icon.svg"],
+img[src$="NodeStore-icon.svg"],
+.sidebar img[src$="easeflow-icon.svg"],
+.sidebar img[src$="NodeStore-icon.svg"],
+[data-testid="sidebar"] img[src$="easeflow-icon.svg"],
+[data-testid="sidebar"] img[src$="NodeStore-icon.svg"] {
+  background-color: transparent !important;
+}
